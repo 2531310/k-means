@@ -36,14 +36,14 @@ input{
 .col-right{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
 }
 
 /* ===== Phần trên ===== */
 .top-panel{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 5px;
 }
 
 /* ===== Panel ===== */
@@ -51,7 +51,7 @@ input{
 .action-panel,
 .result-panel{
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 5px;
     border-radius: 6px;
 }
 
