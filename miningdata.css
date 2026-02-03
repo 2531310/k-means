@@ -11,10 +11,11 @@
     border-right: 1px solid #ccc;
     padding-right: 5px;
 }
-
-.col-left h3{
+h3 {
+    text-align: center;
     margin-top: 0;
 }
+
 
 /* ===== Input list ===== */
 .list-detail p,
