@@ -2,14 +2,14 @@
 .app-layout{
     display: grid;
     grid-template-columns: 120px 1fr;
-    gap: 20px;
+    gap: 5px;
 }
 
 
 /* ===== Cột trái ===== */
 .col-left{
     border-right: 1px solid #ccc;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 .col-left h3{
