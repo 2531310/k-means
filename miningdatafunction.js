@@ -97,7 +97,7 @@ function tinhkq(evt){
        ============================= */
     data_Min_Ketqua.forEach(kq => {
         document.getElementById('result_min').innerHTML +=
-            `<p>STT: ${kq.stt} - &nbsp; Min: ${kq.min} &nbsp; -> Tâm: C${kq.tam}</p>`;
+            `<p>STT: ${kq.stt} -&nbsp; Min: ${kq.min} &nbsp;-> Tâm: C${kq.tam}</p>`;
     });
 
     /* =============================
