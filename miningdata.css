@@ -2,14 +2,14 @@
 .app-layout{
     display: grid;
     grid-template-columns: 120px 1fr;
-    gap: 5px;
+    gap: 3px;
 }
 
 
 /* ===== Cột trái ===== */
 .col-left{
     border-right: 1px solid #ccc;
-    padding-right: 5px;
+    padding-right: 3px;
 }
 h3 {
     text-align: center;
@@ -22,8 +22,8 @@ h3 {
 .tam-detail p{
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin: 5px 0;
+    gap: 3px;
+    margin: 3px 0;
 }
 
 input{
@@ -37,14 +37,14 @@ input{
 .col-right{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
 }
 
 /* ===== Phần trên ===== */
 .top-panel{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 3px;
 }
 
 /* ===== Panel ===== */
@@ -52,14 +52,14 @@ input{
 .action-panel,
 .result-panel{
     border: 1px solid #ddd;
-    padding: 5px;
+    padding: 3px;
     border-radius: 6px;
 }
 
 /* ===== Nút ===== */
 .btn{
     height: 35px;
-    margin-top: 8px;
+    margin-top: 5px;
     border-radius: 5px;
     background: #dcdd73;
     width: 100%;
