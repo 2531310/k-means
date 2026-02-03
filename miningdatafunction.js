@@ -16,7 +16,7 @@ function addSTT(evt){
 }
 function addTam(evt){
 indexSTT_Tam++;
-    document.getElementById('tam-detail').innerHTML += '<p>'+ indexSTT_Tam +'.<input class=\"tam\" name=\'tam-'+ indexSTT_Tam +'\' type=\'text\' placeholder=\'TAM\' /\></p>';
+    document.getElementById('tam-detail').innerHTML += '<p>'+ indexSTT_Tam +'.<input class=\"tam\" name=\'tam-'+ indexSTT_Tam +'\' type=\'text\' placeholder=\'Tâm\' /\></p>';
 
 
 }
