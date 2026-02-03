@@ -1,0 +1,75 @@
+/* ===== Layout tổng ===== */
+.app-layout{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+}
+
+
+/* ===== Cột trái ===== */
+.col-left{
+    border-right: 1px solid #ccc;
+    padding-right: 15px;
+}
+
+.col-left h3{
+    margin-top: 0;
+}
+
+/* ===== Input list ===== */
+.list-detail p,
+.tam-detail p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+input{
+    width: 90px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+
+/* ===== Cột phải ===== */
+.col-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ===== Phần trên ===== */
+.top-panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* ===== Panel ===== */
+.tam-panel,
+.action-panel,
+.result-panel{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* ===== Nút ===== */
+.btn{
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background: #dcdd73;
+    width: 100%;
+}
+
+.btn-green{
+    background: green;
+    color: white;
+}
+
+/* ===== Kết quả ===== */
+.result{
+    padding-left: 10px;
+}
