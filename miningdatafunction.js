@@ -116,6 +116,8 @@ function tinhkq(evt){
         document.getElementById('result_cluster').innerHTML +=
             `<p>C${tam} {${clusterMap[tam].join(',')}}</p>`;
     });
+
+  tinhlaitam(evt);
 }
 
 
