@@ -69,7 +69,7 @@ function tinhkq(evt){
                 const drounded = Math.round(d * 100) / 100;
 
                 document.getElementById('result').innerHTML +=
-                   `<div>d(x<sub>${indexSTT + 1}</sub>, C<sub>${indexTam}</sub>) = ${drounded}</div>`;
+                   `<div>d(X<sub>${indexSTT + 1}</sub>, C<sub>${indexTam}</sub>) = ${drounded}</div>`;
 
                 // Khởi tạo min cho STT ở tâm đầu tiên
                 if(indexTam === 1){
